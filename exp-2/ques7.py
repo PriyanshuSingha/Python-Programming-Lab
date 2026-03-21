@@ -1,0 +1,8 @@
+a=int(input("enter the number:"))
+b=input("enter the string:")
+c=float(input("enter the float:"))
+d=input("enter true or false").lower() in ("true", "1", "yes", "y")
+print(a,type(a))
+print(b,type(b))
+print(c,type(c))
+print(d,type(d))

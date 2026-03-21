@@ -1,0 +1,5 @@
+sentence=input("enter the string:")
+print(sentence.uppercase())
+print(sentence.lowercase())
+print(sentence.uppercase(:))
+print(sentence.len())

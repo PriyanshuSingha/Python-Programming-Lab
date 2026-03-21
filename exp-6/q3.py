@@ -1,0 +1,8 @@
+sentence=input("enter a sentence:")
+words=sentence.split()
+list1=list(enumerate(words))
+list2=list(range(1,len(words)+1))
+list3=list(zip(list1,list2))
+print("list with index and words:",list1)
+print("list of numbers:",list2)
+print("combined list using zip:",list3)
